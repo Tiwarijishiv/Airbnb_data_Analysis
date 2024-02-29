@@ -20,7 +20,7 @@ st.title("AIRBNB DATA ANALYSIS")
 st.write("")
 
 def datafr():
-    df= pd.read_csv("C:/Users/vignesh/Desktop/New folder/Airbnb.csv")
+    df= pd.read_csv("C:/Users/shivam/Desktop/New folder/Airbnb.csv")
     return df
 
 df= datafr()
@@ -30,7 +30,7 @@ with st.sidebar:
 
 if select == "Home":
 
-    image1= Image.open("C:/Users/vignesh/Desktop/New folder/Airbnb image.jpg")
+    image1= Image.open("C:/Users/shivam/Desktop/New folder/Airbnb image.jpg")
     st.image(image1)
 
     st.header("About Airbnb")
@@ -147,7 +147,7 @@ if select == "Data Exploration":
     with tab2:
 
         def datafr():
-            df_a= pd.read_csv("C:/Users/vignesh/Desktop/New folder/Airbnb.csv")
+            df_a= pd.read_csv("C:/Users/shivam/Desktop/New folder/Airbnb.csv")
             return df_a
 
         df_a= datafr()
@@ -219,7 +219,7 @@ if select == "Data Exploration":
         st.write("")
 
         def datafr():
-            df= pd.read_csv("C:/Users/vignesh/Desktop/New folder/Airbnb.csv")
+            df= pd.read_csv("C:/Users/shivam/Desktop/New folder/Airbnb.csv")
             return df
 
         df_l= datafr()
